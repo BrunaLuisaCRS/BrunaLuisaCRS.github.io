@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Portfólio de Bruna Luísa, estudante de Ciência da Computação na UFRRJ, com projetos em Python, IA, dados e cibersegurança.">
+  <title>Bruna Luísa — Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#inicio" aria-label="Início">BL<span>↗</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre" data-i18n="navAbout">Sobre</a>
+      <a href="#projetos" data-i18n="navProjects">Projetos</a>
+      <a href="#jornada" data-i18n="navJourney">Jornada</a>
+      <a href="#contato" data-i18n="navContact">Contato</a>
+    </nav>
+    <button id="language-toggle" class="language-toggle" type="button" aria-label="Switch language">EN <span>↗</span></button>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="available">ESTUDANTE • EM BUSCA DE OPORTUNIDADE EM TECH</span></p>
+        <h1 data-i18n-html="heroTitle">Transformando<br><span class="outline">curiosidade</span> em<br>soluções.</h1>
+        <p class="hero-intro" data-i18n="heroIntro">Sou Bruna Luísa, estudante de Ciência da Computação na UFRRJ. Exploro tecnologia por meio de dados, inteligência artificial e cibersegurança — aprendendo, construindo e compartilhando.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos" data-i18n="seeProjects">Explorar projetos <span>↘</span></a>
+          <a class="text-link" href="https://github.com/BrunaLuisaCRS" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração abstrata de tecnologia">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="core"><span>BL</span><small>BUILD / LEARN</small></div>
+        <span class="float-tag tag-data">DATA<span>_</span></span>
+        <span class="float-tag tag-ai">AI <span>✳</span></span>
+        <span class="float-tag tag-sec">SEC<span>://</span></span>
+        <span class="cross cross-a">+</span><span class="cross cross-b">+</span>
+        <span class="hero-index">01 — 03</span>
+      </div>
+      <div class="hero-bottom">
+        <span data-i18n="heroLocation">CIÊNCIA DA COMPUTAÇÃO · UFRRJ</span>
+        <span>SCROLL TO EXPLORE ↓</span>
+      </div>
+    </section>
+
+    <section id="sobre" class="section-wrap section-block">
+      <div class="section-heading">
+        <p class="eyebrow">01 / <span data-i18n="aboutLabel">QUEM SOU</span></p>
+        <h2 data-i18n-html="aboutTitle">Tecnologia com<br><span class="accent">intenção.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead" data-i18n="aboutLead">Gosto de entender como as coisas funcionam — e de transformar essa curiosidade em projetos que possam ajudar pessoas.</p>
+        <div class="about-detail">
+          <p data-i18n="aboutBody">Sou estudante de Ciência da Computação na Universidade Federal Rural do Rio de Janeiro (UFRRJ) e participo de uma iniciação científica voltada ao uso de dados e técnicas de aprendizado de máquina para apoiar a trajetória acadêmica de estudantes. Também desenvolvo projetos com Python e sigo aprofundando meus conhecimentos em bancos de dados, IA e segurança da informação.</p>
+          <div class="skill-list" aria-label="Áreas de interesse">
+            <span>Python</span><span>Data & Analytics</span><span>Machine Learning</span><span>Cybersecurity</span><span>SQL</span><span>Git & GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section-wrap section-block projects-section">
+      <div class="section-heading heading-row">
+        <div><p class="eyebrow">02 / <span data-i18n="workLabel">TRABALHOS SELECIONADOS</span></p><h2 data-i18n-html="projectsTitle">Feito para<br><span class="accent">aprender fazendo.</span></h2></div>
+        <p class="heading-note" data-i18n="projectsNote">Projetos acadêmicos e pessoais. Em evolução contínua — assim como eu.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual visual-bot">
+            <span class="visual-label">01 / RESEARCH</span>
+            <div class="terminal">
+              <div class="terminal-top"><i></i><i></i><i></i><span>compbot.py</span></div>
+              <p><span class="terminal-green">›</span> student_path.analyze()</p>
+              <p class="terminal-muted">loading academic data...</p>
+              <p><span class="terminal-green">✓</span> recommendations ready</p>
+              <div class="terminal-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <span class="visual-orbit">AI × EDU</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span data-i18n="researchTag">INICIAÇÃO CIENTÍFICA</span><span>PYTHON · ML</span></div>
+            <h3>CompBot UFRRJ</h3>
+            <p data-i18n="botDescription">Bot de apoio acadêmico para estudantes de Ciência da Computação da UFRRJ. O projeto explora dados acadêmicos e técnicas de aprendizado de máquina para apoiar orientações sobre disciplinas, pré-requisitos e planejamento da trajetória curricular.</p>
+            <div class="project-footer"><span data-i18n="academicProject">Pesquisa acadêmica · em desenvolvimento</span><a href="https://github.com/BrunaLuisaCRS/compbot-ufrrj" target="_blank" rel="noreferrer" aria-label="Ver repositório CompBot UFRRJ">Ver repositório ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-python">
+            <span class="visual-label">02 / SOFTWARE</span>
+            <div class="code-window">
+              <div class="code-line"><b>01</b> <span class="code-purple">class</span> Calculator:</div>
+              <div class="code-line indent"><b>02</b> <span class="code-purple">def</span> <span class="code-yellow">__init__</span>(self):</div>
+              <div class="code-line indent2"><b>03</b> self.ready = <span class="code-green">True</span></div>
+              <div class="code-line"><b>04</b> <span class="code-comment"># learn by building</span></div>
+              <div class="calc-keys"><span>7</span><span>8</span><span>9</span><span class="key-accent">÷</span><span>4</span><span>5</span><span>6</span><span class="key-accent">×</span><span>1</span><span>2</span><span>3</span><span class="key-accent">−</span><span>0</span><span>.</span><span>=</span><span class="key-accent">+</span></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span data-i18n="personalProject">PROJETO PESSOAL</span><span>PYTHON · TKINTER</span></div>
+            <h3 data-i18n="calculatorTitle">Calculadora em Python</h3>
+            <p data-i18n="calculatorDescription">Aplicação de calculadora com interface gráfica construída com Tkinter, organizada em arquivos Python e com foco na prática de orientação a objetos e construção de interfaces.</p>
+            <div class="project-footer"><span data-i18n="learningProject">Prática de programação</span><a href="https://github.com/BrunaLuisaCRS" target="_blank" rel="noreferrer" data-i18n="viewGithub">Explorar GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-data">
+            <span class="visual-label">03 / DATA</span>
+            <div class="chart-art">
+              <div class="chart-caption">LEARNING ANALYTICS <span>↗</span></div>
+              <div class="chart-bars"><i style="--h:32%"></i><i style="--h:56%"></i><i style="--h:44%"></i><i style="--h:78%"></i><i style="--h:63%"></i><i style="--h:90%"></i><i style="--h:70%"></i><i style="--h:100%"></i></div>
+              <div class="chart-axis"><span>DATA</span><span>INSIGHT</span><span>DECISION</span></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span data-i18n="researchTag">INICIAÇÃO CIENTÍFICA</span><span>PYTHON · PANDAS · ML</span></div>
+            <h3 data-i18n="dataTitle">Análise de dados acadêmicos</h3>
+            <p data-i18n="dataDescription">Etapa de pesquisa que envolve organização e limpeza de dados acadêmicos, exploração de médias por eixos curriculares e experimentação com algoritmos de aprendizado de máquina para investigar padrões de desempenho.</p>
+            <div class="project-footer"><span data-i18n="researchWork">Pesquisa e experimentação</span><a href="https://github.com/BrunaLuisaCRS" target="_blank" rel="noreferrer" data-i18n="viewGithub">Explorar GitHub ↗</a></div>
+          </div>
+        </article>
+      </div>
+      <p class="project-disclaimer" data-i18n="projectDisclaimer">Nota: os links genéricos levam ao meu perfil do GitHub. Nem todos os trabalhos têm um repositório público; não compartilho dados acadêmicos pessoais ou bases restritas.</p>
+    </section>
+
+    <section id="jornada" class="section-wrap section-block journey-section">
+      <div class="section-heading"><p class="eyebrow">03 / <span data-i18n="journeyLabel">JORNADA</span></p><h2 data-i18n-html="journeyTitle">Aprendizado em<br><span class="accent">movimento.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-date">2025 — ATUAL</span><div><h3 data-i18n="timelineResearch">Iniciação científica · UFRRJ</h3><p data-i18n="timelineResearchBody">Pesquisa aplicada a dados acadêmicos, aprendizado de máquina e apoio à trajetória universitária, com desenvolvimento de um bot em Python.</p></div><span class="timeline-mark">01</span></article>
+        <article class="timeline-item"><span class="timeline-date">2026</span><div><h3 data-i18n="timelinePresentation">RAIC / RAIDTec · UFRRJ</h3><p data-i18n="timelinePresentationBody">Apresentação do projeto de iniciação científica na jornada acadêmica de pesquisa e inovação da universidade.</p></div><span class="timeline-mark">02</span></article>
+        <article class="timeline-item"><span class="timeline-date" data-i18n="ongoing">EM ANDAMENTO</span><div><h3 data-i18n="timelineSecurity">Estudos em cibersegurança</h3><p data-i18n="timelineSecurityBody">Aprofundando conhecimentos por meio de cursos e plataformas práticas de aprendizagem em segurança da informação.</p></div><span class="timeline-mark">03</span></article>
+      </div>
+      <div class="learning-strip"><span class="strip-label" data-i18n="currentlyLearning">APRENDENDO AGORA</span><div class="learning-items"><span>SQL</span><span>Power BI</span><span>Cybersecurity</span><span>Machine Learning</span></div></div>
+    </section>
+
+    <section id="contato" class="contact-section">
+      <div class="section-wrap contact-inner">
+        <p class="eyebrow">04 / <span data-i18n="contactLabel">VAMOS CONVERSAR</span></p>
+        <h2 data-i18n-html="contactTitle">Boas ideias começam<br>com um <span class="accent">olá.</span></h2>
+        <p data-i18n="contactText">Estou em busca da minha primeira oportunidade em tecnologia e aberta a aprender, colaborar e contribuir com projetos desafiadores.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://github.com/BrunaLuisaCRS" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" data-i18n="linkedinButton">Encontrar no LinkedIn ↗</a>
+        </div>
+        <p class="contact-note" data-i18n="contactNote">Adicione seu link direto do LinkedIn e e-mail profissional antes de divulgar o site.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="wordmark" href="#inicio">BL<span>↗</span></a>
+    <span>© <span id="year"></span> BRUNA LUÍSA</span>
+    <span data-i18n="footerNote">Feito com curiosidade e café.</span>
+    <a href="#inicio" data-i18n="backTop">Voltar ao topo ↑</a>
+  </footer>
+</body>
+</html>
